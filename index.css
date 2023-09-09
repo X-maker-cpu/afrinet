@@ -1,0 +1,64 @@
+div{
+    background-color: rgb(216, 138, 21);
+    padding: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(17, 17, 17);
+}
+
+.imo{
+    display: flex;
+}
+
+.tablink{
+    color: rgb(194, 120, 120);
+    background-color: transparent;
+    border: none;
+}
+
+body{
+    font-family: "open sens";
+    display: grid;
+    place-content: center;
+    background-color: rgb(10, 10, 10);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#add_todo_btn{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    padding: 10px;
+    align-content: center;
+    background-color: rgb(206, 160, 62);
+    color: rgb(15, 15, 15);
+    font-size: 15px;
+}
+
+.todo_element{
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    padding-inline-start: 5px;
+    border-radius: 10px;
+}
+
+.todos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.icon{
+    display: flex;
+    color: rgb(3, 3, 3);
+}
